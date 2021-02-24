@@ -106,20 +106,6 @@
 
 
 
-
-
-
-
-
-
-
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -127,13 +113,6 @@
   margin-right: 0;
   margin-top: 80px;
 }
-
-
-
-
-
-
-
 
 .content {
   width: 100%;
@@ -151,40 +130,54 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
   margin-top: 100px;
-
 }
 
 .brief {
-
   width: 175px;
-  padding-right: auto;
+
+ 
+  /* padding-right: auto; */
 }
 
-.brief__text {
+.brief__title {
   line-height: 1.2;
-  font-size: 45px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  
 }
 
-.main-text {
+.brief__link {
+  text-decoration: none;
+  color: #2f80ed;
+  
+}
+
+.two-columns__main-text {
   line-height: 34px;
   font-size: 24px;
   width: 80%;
   min-width: 784px;
+  padding: 0;
+  margin: 0;
 }
 
-.main-text .p1 {
+.two-columns__paragraph_with_bottom-margin {
   margin-bottom: 30px;
 }
-
-.main-text .p2 {
-  margin-bottom: 30px;
- }
 
 .span-accent {
   font-weight: bold;
-
 }
+
+.list {
+  list-style: none;
+}
+
+
 
 
 .digits {
