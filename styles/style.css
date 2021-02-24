@@ -116,7 +116,7 @@ margin: верх право низ лево; */
   height: 608px;
 }
 
-
+/*!!!!!!!!!!!!!*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -203,12 +203,10 @@ margin: верх право низ лево; */
 
 .section-title_theme_white {
   margin: 0 auto 20px;
-  padding-top: 100px; /* почему так? */
 }
 
 .section-title_theme_dark {
   margin: 0 auto 20px;
-  padding-top: 90px; /* почему так? */
 }
 
 .section-title__header {
@@ -351,6 +349,9 @@ margin: верх право низ лево; */
   background-color: #1f1f1f;
   z-index: -2;
   position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+
 }
 
 .kaufman__img {
@@ -363,4 +364,107 @@ margin: верх право низ лево; */
 }
 
 
+.footer {
+  width: 100%;
+  background-color: #1f1f1f;
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 
+}
+
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 350px;
+  margin: auto;
+
+  
+}
+
+.footer__column_content_copyright {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+  
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  width: 183px;
+  height: 35px;
+}
+
+.footer_author {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  color: white;
+  font-weight: normal;
+}
+
+
+
+
+
+.footer__column_content_info {
+
+  
+}
+.footer__column-links {
+padding: 0;
+margin: 0;
+}
+.footer__column_content_social {
+
+  
+}
+.footer__social-icon {
+
+padding: 0;
+margin: 0;
+}
+
+
+.footer__social-icon_img {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: normal;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer__social-icon {
+  line-height: 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: normal;
+}
+
+/* to do: после линков добавить отступы */
+/* to do: не хватает границ */
