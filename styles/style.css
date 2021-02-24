@@ -39,7 +39,7 @@ margin: верх право низ лево; */
 .header__title {
   width: 730px;
   margin-left: 64px;
-  z-index: 0;
+  z-index: 4;
 }
 
 .header__title_text {
@@ -55,6 +55,7 @@ margin: верх право низ лево; */
   left: 64px;
   bottom: 30px;
   width: 388px;
+  z-index: 4;
   
  
 }
@@ -88,7 +89,7 @@ margin: верх право низ лево; */
   position: absolute;
   left: 64px;
   top: 30px;
-  z-index: 3;
+  z-index: 4;
 }
 
 .square-pic {
@@ -255,3 +256,57 @@ margin: верх право низ лево; */
 .table__text_paragraph_two {
   margin-top: 20px;
 }
+
+.feynman {
+  height: 790px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+}
+
+.feynman__title {
+  text-align: center;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 2;
+  margin: 100px 0 0;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+  margin: 70px 0 0;
+  }
+
+.feynman__img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+ 
+
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  align-self:center;
+  line-height: 51px;
+  font-size: 36px;
+  top: 50%;
+  bottom: 50%;
+  text-decoration: none;
+  color: #2f80ed;
+  
+}
+
+/* margin: верх право низ лево; */
