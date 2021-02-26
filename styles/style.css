@@ -306,6 +306,7 @@ feynman, то ссылка и подзаголовок выстроятся в �
   top: 0;
   right: -210px;
   z-index: -1;
+  background-size: cover;
 }
 
 .section-title_theme_dark {
