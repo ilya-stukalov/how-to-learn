@@ -7,3 +7,8 @@
   color: #2f80ed;
   text-decoration: none;
 }
+
+.khan__book-link:hover {
+  opacity: 0.5;
+  transition: 2s;
+}
