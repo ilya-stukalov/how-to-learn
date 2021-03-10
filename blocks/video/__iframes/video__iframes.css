@@ -2,7 +2,7 @@
 .video__iframes {
   display: flex;
   align-items: center;
-  position: relative; /*to do: разобраться, почему, случайно получилось */
+  position: relative;
   top: 50px;
   z-index: 1;
 

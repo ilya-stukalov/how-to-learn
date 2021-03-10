@@ -1,5 +1,5 @@
 
-.khan__book-link {
+.khan__buy-link {
   margin: 0;
   font-weight: normal;
   font-size: 30px;
@@ -8,7 +8,7 @@
   text-decoration: none;
 }
 
-.khan__book-link:hover {
+.khan__buy-link:hover {
   opacity: 0.5;
   transition: 2s;
 }
